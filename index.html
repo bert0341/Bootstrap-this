@@ -27,19 +27,23 @@
       <!-- ----------------------------------------------- -->
       <!-- Breadcrumb Nav -->
       <div>
-        <h2 class="text-center text-primary"> Using Breadcrumb</h2>
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#">Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Library</li>
-        </ol>
-      </nav>
-        <p> Breadcrumb is a great option for your navigation. By using this bootstrap class it allows you to indicate what page you are currently on.</p>
+          <h2 class="text-center text-primary"> Using Breadcrumb</h2>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Library</li>
+          </ol>
+        </nav>
+          <p> Breadcrumb is a great option for your navigation. By using this bootstrap class it allows you to indicate what page you are currently on.</p>
       </div>
       <hr>
-      <!-- ---------------------- -->
+      <!-- ---------Nav Ends------------- -->
+
+      <!-- -----Starter Template Starts -->
+      
       <div class="row">
         <div>
+          <!-- aligning and colour coding text -->
           <h2 class="text-center text-danger"> Starter Template</h2>
 
           <p>Bootstrap is an amzing program! By clicking on the drop down menu below you can get started with your very own bootstrap starter template! </p>
@@ -60,35 +64,43 @@
       </div>
       <!-- ----------------- -->
       <hr>
+      <!-- aligning and colour coding text around all text inside of this div -->
       <div class="text-center text-info">
 
         <hr>
+        <!-- column spacing header -->
         <h2>Assigning Column Spacing to Content</h2>
         <p> By asssigning each paragraph to a 4 column width thay are equally spread among 3 column because the parent element has the page set to a default of 12 columns.</p>
         <div class="row">
+          <!-- column 1 taking up 4 columns-->
           <div class="col-4">
             <h3>class="col-4"</h3>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laborum maxime cumque sequi nesciunt! Amet, architecto eligendi corrupti officiis facilis, minima in dolorem iure ipsum impedit itaque quisquam quos quaerat.
             </p>
           </div>
+          <!-- column 1 end -->
+          <!-- column 2 taking up 4 columns-->
           <div class="col-4">
             <h3>class="col-4"</h3>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laborum maxime cumque sequi nesciunt! Amet, architecto eligendi corrupti officiis facilis, minima in dolorem iure ipsum impedit itaque quisquam quos quaerat.
             </p>
           </div>
+          <!-- column 2 end -->
+          <!-- column 3 taking up 4 columns-->
           <div class="col-4">
             <h3>class="col-4"</h3>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laborum maxime cumque sequi nesciunt! Amet, architecto eligendi corrupti officiis facilis, minima in dolorem iure ipsum impedit itaque quisquam quos quaerat.
             </p>
           </div>
+          <!-- column 3 end -->
         </div>
         <hr>
       </div>
       
-      <!-- ---------------------- -->
+      <!-- -------Button Design Start 1--------------- -->
       <div>
         <h3 class="text-center">Button Design (class="btn btn-outline-success")</h3>
         <h3 class="text-center">Column Code (class="col-1" )</h3>
@@ -103,7 +115,7 @@
           </p>
         </div>
       </div>
-      <!-- ------------------- -->
+      <!-- -------Row-#2----------- -->
       <hr>
       <div>
         <h3 class="text-center">Button Design (class="btn btn-outline-warning")</h3>
@@ -125,7 +137,7 @@
           </p>
         </div>
       </div>
-      <!-- ------------------- -->
+      <!-- ----------Row-#3-------- -->
       <hr>
       <div>
         <h3 class="text-center">Button Design (class="btn btn-outline-danger")</h3>
@@ -133,6 +145,7 @@
       </div>
       <div class="row">
         <!-- Button row 3 -->
+        <!-- aligning and colour coding text -->
         <h4 class="text-center text-danger">Button Width= 3 columns</h4>
 
         <div class=" col-3 btn btn-outline-danger">
@@ -162,7 +175,7 @@
           </p>
         </div>
       </div>
-      <!-- ------------------------ -->
+      <!-- ------------Row-#4----------- -->
       <hr>
       <div>
         <h3 class="text-center">Button Design (class="btn btn-outline-primary")</h3>
@@ -170,6 +183,7 @@
       </div>
       <div class="row">
         <!-- Button row 4 -->
+        <!-- aligning and colour coding text -->
         <h4 class="text-center text-primary">Button Width= 2 columns</h4>
 
         <div class="col-2 btn btn-outline-primary">
@@ -205,28 +219,65 @@
         
       </div>
       
-      <!-- ----------------------------- -->
+      <!-- -------------Grid Systems---------------- -->
       <hr>
+      <!-- Assigning row -->
       <div class="row">
-        <div class="col-9">
+        <!-- assigning width to all columns (12) -->
+        <div class="col-12">
+          <h1 class="text-center">Grid Systems</h1>
+          <!-- aligning and colour coding text -->
+          <p class="text-center text-danger">
+            Using grid systems allows you to align text and items when a page reaches certain sizes. This means your text can enlarge and take up more of the page when it sizes to desktop and the opposite way
+          </p>
+        </div>
+      </div>
+      <!-- ----------------------------- -->
+      <div class="row">
+        <div class="col-4 col-md-6 col-lg-8 text-center">
+          <h4 class="text-center">Text-1</h4>
+          <!-- On page code -->
+          <p>("col-4 col-md-6 col-lg-8 text-center")</p>
+          <!-- aligning and colour coding text -->
+          <p class="text-danger text-center">
+            Text 1 will take-up 4 columns at the mobile version, 6 columns at tablet version, and 8 columns at the desktop version
+           </p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores velit sit voluptatem voluptatum ipsum alias minima nostrum dolore odit, deserunt quam incidunt fuga autem iste sunt harum ut! Deserunt, delectus.
           </p>
         </div>
-        <div class="col-3">
-
-          <img class="img-fluid" src="https://via.placeholder.com/250" alt="placeholder">
-
+        
+        <div class="col-4 col-md-6 col-lg-4 text-center">
+          <h4 class="text-center">Text-2</h4>
+          <!-- On page code -->
+          <p>("col-4 col-md-6 col-lg-4 text-center")</p>
+          <!-- aligning and colour coding text -->
+          <p class="text-center text-danger">
+            Text 2 will take-up 4 columns at the mobile version, 6 columns at tablet version, and 4 columns at the desktop version
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores velit sit voluptatem voluptatum ipsum alias minima nostrum dolore odit, deserunt quam incidunt fuga autem iste sunt harum ut! Deserunt, delectus.
+          </p>
         </div>
+
+        <div class="col-4 col-md-6 col-lg-12 text-center">
+          <h4 class="text-center">Text-3</h4>
+          <!-- On page code -->
+          <p>("col-4 col-md-6 col-lg-12 text-center")</p>
+          <!-- aligning and colour coding text -->
+          <p class="text-center text-danger">
+            Text 3 will take-up 4 columns at the mobile version, 6 columns at tablet version, and 12 columns at the desktop version
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores velit sit voluptatem voluptatum ipsum alias minima nostrum dolore odit, deserunt quam incidunt fuga autem iste sunt harum ut! Deserunt, delectus.
+          </p>
+        </div>
+        
       </div>
-
-
-
-
+      <hr>
 
     </div>
-    
-  
+
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
