@@ -15,7 +15,7 @@
     <div class="container">
       <hr>
       <div class="row">
-        <div>
+        <div class="col-12 bg-dark text-white">
 
           <h1 class="text-center">
            About Bootstrap
@@ -23,25 +23,37 @@
 
         </div>
       </div>
+      <div class="row">
+        <!-- background color light -->
+        <!-- nav bar expands at edium screen size -->
+        <nav class="navbar bg-light navbar-expand-md">
+          <div class="navbar-nav col-12">
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#"> About Us</a>
+            <a class="nav-link" href="#"> Contact</a>
+          </div>
+        </nav>
+      </div>
       <hr>
-      <!-- ----------------------------------------------- -->
+      <!--------------------------------------------------->
       <!-- Breadcrumb Nav -->
       <div>
-          <h2 class="text-center text-primary"> Using Breadcrumb</h2>
+          <h2 class="text-center text-white bg-primary"> Using Breadcrumb</h2>
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
             <li class="breadcrumb-item active" aria-current="page">Library</li>
           </ol>
         </nav>
+        <!-- breadcrumb description -->
           <p> Breadcrumb is a great option for your navigation. By using this bootstrap class it allows you to indicate what page you are currently on.</p>
       </div>
       <hr>
-      <!-- ---------Nav Ends------------- -->
-      <!-- naav elements start -->
+      <!-----------Nav Ends--------------->
+      <!-- nav elements start -->
       <div>
         <!-- centering and color coding header text -->
-        <h2 class="text-center text-warning"> Using Nav Elements</h2>
+        <h2 class="text-center bg-warning text-white"> Using Nav Elements</h2>
       </div>
       <!-- first row on nav elements -->
       <div class="row">
@@ -52,6 +64,7 @@
           <!-- active class means it is blue and will work -->
             <a href="#" class="nav-link active">Link</a>
           </nav>
+          <!-- description -->
           <p>Classic blue navigation with the class of "nav-link active" acts as the most basic nav you can do</p>
         </div>
        
@@ -81,16 +94,16 @@
 
       <hr>
 
-      <!-- -----Starter Template Starts -->
+      <!-------Starter Template Starts-->
       
       <div class="row">
         <div>
           <!-- aligning and colour coding text -->
-          <h2 class="text-center text-danger"> Starter Template</h2>
+          <h2 class="text-center bg-danger text-white"> Starter Template</h2>
 
           <p>Bootstrap is an amzing program! By clicking on the drop down menu below you can get started with your very own bootstrap starter template! </p>
 
-          <!-- --Drop Down Button with link to Bootstrat Starter template----- -->
+          <!----Drop Down Button with link to Bootstrat Starter template------->
           <div class="btn-group">
             <button type="button" class="btn btn-danger">Bootstrap Starter Template</button>
             <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
@@ -101,23 +114,25 @@
               
             </ul>
           </div>
-          <!-- ---------- -->
+          <!-------------->
         </div>
       </div>
-      <!-- ----------------- -->
+      <!--------------------->
       <hr>
       <!-- aligning and colour coding text around all text inside of this div -->
       <div class="text-center text-info">
 
         <hr>
         <!-- column spacing header -->
-        <h2>Assigning Column Spacing to Content</h2>
+        <h2 class="bg-info text-white">Assigning Column Spacing to Content</h2>
+        <!-- description -->
         <p> By asssigning each paragraph to a 4 column width thay are equally spread among 3 column because the parent element has the page set to a default of 12 columns.</p>
         <div class="row">
           <!-- column 1 taking up 4 columns-->
           <div class="col-4">
             <h3>class="col-4"</h3>
-            <p>
+             <!-- example text -->
+            <p class="fst-italic">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laborum maxime cumque sequi nesciunt! Amet, architecto eligendi corrupti officiis facilis, minima in dolorem iure ipsum impedit itaque quisquam quos quaerat.
             </p>
           </div>
@@ -125,7 +140,8 @@
           <!-- column 2 taking up 4 columns-->
           <div class="col-4">
             <h3>class="col-4"</h3>
-            <p>
+             <!-- example text -->
+            <p class="fst-italic">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laborum maxime cumque sequi nesciunt! Amet, architecto eligendi corrupti officiis facilis, minima in dolorem iure ipsum impedit itaque quisquam quos quaerat.
             </p>
           </div>
@@ -133,7 +149,8 @@
           <!-- column 3 taking up 4 columns-->
           <div class="col-4">
             <h3>class="col-4"</h3>
-            <p>
+             <!-- example text -->
+            <p class="fst-italic">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laborum maxime cumque sequi nesciunt! Amet, architecto eligendi corrupti officiis facilis, minima in dolorem iure ipsum impedit itaque quisquam quos quaerat.
             </p>
           </div>
@@ -142,10 +159,14 @@
         <hr>
       </div>
       
-      <!-- -------Button Design Start 1--------------- -->
+      <!---------Button Design Start 1----------------->
       <div>
-        <h3 class="text-center">Button Design (class="btn btn-outline-success")</h3>
+        <!-- header/button code-->
+        <h3 class="text-center bg-success text-white">Button Design (class="btn btn-outline-success")</h3>
+        <!-- column code -->
         <h3 class="text-center">Column Code (class="col-1" )</h3>
+        <!-- button description -->
+        <p class="text-center text-success">Bootstrap allows you to create very cool buttons with great hover properties just by typing in some very simple code. THis allows you to save time as well as making your site look more professional.</p>
       </div>
       <div class="row">
         <!-- Button row 1 -->
@@ -157,29 +178,30 @@
           </p>
         </div>
       </div>
-      <!-- -------Row-#2----------- -->
+      <!---------Row-#2------------->
       <hr>
       <div>
+        <!-- button code -->
         <h3 class="text-center">Button Design (class="btn btn-outline-warning")</h3>
         <h3 class="text-center">Column Code (class="col-6" )</h3>
       </div>
       <div class="row">
-        <!-- Button row 2 -->
+        <!--Button row 2-->
         <h4 class="text-center text-warning">Button Width= 6 columns</h4>
-
+        <!-- adjusting button sizing -->
         <div class=" col-6 btn btn-outline-warning">
           <p>
             Button
           </p>
         </div>
-      
+       <!-- adjusting button sizing -->
         <div class=" col-6 btn btn-outline-warning">
           <p>
             Button
           </p>
         </div>
       </div>
-      <!-- ----------Row-#3-------- -->
+      <!------------Row-#3---------->
       <hr>
       <div>
         <h3 class="text-center">Button Design (class="btn btn-outline-danger")</h3>
@@ -189,35 +211,35 @@
         <!-- Button row 3 -->
         <!-- aligning and colour coding text -->
         <h4 class="text-center text-danger">Button Width= 3 columns</h4>
-
+         <!-- adjusting button sizing -->
         <div class=" col-3 btn btn-outline-danger">
           <p>
             Button
           </p>
         </div>
       
-      
+       <!-- adjusting button sizing -->
         <div class=" col-3 btn btn-outline-danger">
           <p>
             Button
           </p>
         </div>
       
-      
+       <!-- adjusting button sizing -->
         <div class=" col-3 btn btn-outline-danger">
           <p>
             Button
           </p>
         </div>
       
-      
+       <!-- adjusting button sizing -->
         <div class=" col-3 btn btn-outline-danger">
           <p>
             Button
           </p>
         </div>
       </div>
-      <!-- ------------Row-#4----------- -->
+      <!--------------Row-#4------------->
       <hr>
       <div>
         <h3 class="text-center">Button Design (class="btn btn-outline-primary")</h3>
@@ -227,32 +249,37 @@
         <!-- Button row 4 -->
         <!-- aligning and colour coding text -->
         <h4 class="text-center text-primary">Button Width= 2 columns</h4>
-
+         <!-- adjusting button sizing -->
         <div class="col-2 btn btn-outline-primary">
           <p>
             Button
           </p>
         </div>
+         <!-- adjusting button sizing -->
         <div class="col-2 btn btn-outline-primary">
           <p>
             Button
           </p>
         </div>
+         <!-- adjusting button sizing -->
         <div class="col-2 btn btn-outline-primary">
           <p>
             Button
           </p>
         </div>
+         <!-- adjusting button sizing -->
         <div class="col-2 btn btn-outline-primary">
           <p>
             Button
           </p>
         </div>
+         <!-- adjusting button sizing -->
         <div class="col-2 btn btn-outline-primary">
           <p>
             Button
           </p>
         </div>
+         <!-- adjusting button sizing -->
         <div class="col-2 btn btn-outline-primary">
           <p>
             Button
@@ -261,20 +288,20 @@
         
       </div>
       
-      <!-- -------------Grid Systems---------------- -->
+      <!---------------Grid Systems------------------>
       <hr>
       <!-- Assigning row -->
       <div class="row">
         <!-- assigning width to all columns (12) -->
         <div class="col-12">
-          <h1 class="text-center">Grid Systems</h1>
+          <h1 class="text-center text-white bg-danger">Grid Systems</h1>
           <!-- aligning and colour coding text -->
           <p class="text-center text-danger">
             Using grid systems allows you to align text and items when a page reaches certain sizes. This means your text can enlarge and take up more of the page when it sizes to desktop and the opposite way
           </p>
         </div>
       </div>
-      <!-- ----------------------------- -->
+      <!--------------------------------->
       <div class="row">
         <div class="col-4 col-md-6 col-lg-8 text-center">
           <h4 class="text-center">Text-1</h4>
@@ -284,7 +311,8 @@
           <p class="text-danger text-center">
             Text 1 will take-up 4 columns at the mobile version, 6 columns at tablet version, and 8 columns at the desktop version
            </p>
-          <p>
+            <!-- example text -->
+          <p class="fst-italic">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores velit sit voluptatem voluptatum ipsum alias minima nostrum dolore odit, deserunt quam incidunt fuga autem iste sunt harum ut! Deserunt, delectus.
           </p>
         </div>
@@ -297,7 +325,8 @@
           <p class="text-center text-danger">
             Text 2 will take-up 4 columns at the mobile version, 6 columns at tablet version, and 4 columns at the desktop version
           </p>
-          <p>
+          <!-- example text -->
+          <p class="fst-italic">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores velit sit voluptatem voluptatum ipsum alias minima nostrum dolore odit, deserunt quam incidunt fuga autem iste sunt harum ut! Deserunt, delectus.
           </p>
         </div>
@@ -310,7 +339,8 @@
           <p class="text-center text-danger">
             Text 3 will take-up 4 columns at the mobile version, 6 columns at tablet version, and 12 columns at the desktop version
           </p>
-          <p>
+           <!-- example text -->
+          <p class="fst-italic">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores velit sit voluptatem voluptatum ipsum alias minima nostrum dolore odit, deserunt quam incidunt fuga autem iste sunt harum ut! Deserunt, delectus.
           </p>
         </div>
